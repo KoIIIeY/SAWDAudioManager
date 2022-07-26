@@ -51,7 +51,7 @@ public class SAWDLocalizationSoundEditor : Editor
         else
         {
             email = EditorGUILayout.TextField("Email", email);
-            password = EditorGUILayout.TextField("Password", password);
+            password = EditorGUILayout.PasswordField("Password", password);
             if(GUILayout.Button("Login"))
             {
                 PlayerPrefs.SetString("SAWD_audio_token", Token.Login(email, password));
