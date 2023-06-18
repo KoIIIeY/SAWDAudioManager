@@ -1,6 +1,6 @@
 {
   "name": "ru.sa-wd.audio",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "displayName": "SAWD Voice/Audio Localization Plugin",
   "description": "This plugin allows developers to fast upload/download translations from audio.sa-wd.ru",
   "unity": "2019.1",
