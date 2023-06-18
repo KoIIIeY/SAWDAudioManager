@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -773,6 +774,5 @@ public class SAWDLocalizationSoundEditor : Editor
         
         return _mappings.TryGetValue(extension, out mime) ? mime : "application/octet-stream";
     }
-    
-    
 }
+#elif
